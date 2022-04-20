@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: #fff;
+  color: #4d4d4d;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+.navbar {
+  padding: 15px 0px;
+}
+.navbar-brand img {
+  width: 90px;
+  height: 70px;
+}
+.navbar .navbar-nav .nav-link {
+  color: #4d4d4d;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+​.banner {
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+  color: white;
+}
+
+.banner img {
+  position: relative;
+  min-height: 444px;
+  margin-top: 0em;
+}
+.banner .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.banner h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 48px;
+  padding: 30px 0px;
+}
+.banner .content .btn {
+  padding: 13px 30px;
+  font-size: 24px;
+  font-weight: bolder;
+  border-radius: 12px;
+}
+section .container .row .col-12 {
+  color: #d52037;
+  font-size: 36px;
+  font-weight: 700;
+  padding: 30px;
+}
+section .container .row .para {
+  padding: 40px;
+}
+iframe {
+  border-radius: 0.5em;
+}
+
+form {
+  padding: 20px;
+}
+form input[type] {
+  background-color: #e4e4e4;
+  border-radius: 11px;
+  padding: 20px;
+}
+
+form label {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
+form input::placeholder {
+  font-style: italic;
+  color: #c9c2c1;
+  font-size: medium;
+}
+form button {
+  background-color: #db1e36;
+}
+footer {
+  background-color: #cecece;
+  margin-top: 20px;
+}
+footer p {
+  font-size: 16px;
+  margin-bottom: 0em;
+  padding: 15px;
+}
+
+.modal .modal-title {
+  color: #d52037;
+  font-weight: 400;
+  font-size: 18px;
+}
+@media only screen and (min-width: 1024px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 0.05em;
+  }
+
+  section .container .row .para {
+    padding: 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 0.05em;
+  }
+  .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: 1px solid #4d4d4d;
+    height: 22px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 0.05em;
+  }
+  .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: 1px solid #4d4d4d;
+    height: 22px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .banner h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .banner .content .btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .navbar {
+    padding: 15px 8px;
+  }
+}
