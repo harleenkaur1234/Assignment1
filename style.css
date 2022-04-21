@@ -133,9 +133,9 @@ footer p {
     height: 22px;
   }
 }
-@media only screen and (max-width: 1100px) {
+@media (min-width:300px) and (max-width: 1024px) {
   .banner h1 {
-    font-size: 30px;
+    font-size: 48px;
     font-weight: 700;
   }
   .banner .content .btn {
