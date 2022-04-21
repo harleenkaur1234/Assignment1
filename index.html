@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ask me</title>
+</head>
+
+<body>
+    <!--Navbar-->
+
+    <header>
+        <div class="container-fluid px-0">
+            <!--Navbar Menu-->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img id="logo" src="./images/logo.png" /></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler11"
+                        aria-controls="navbarToggler11" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarToggler11">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link px-3" href="#">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link px-3" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="#">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="#">Our Team</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link px-3" href="#contactus">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--Banner Section-->
+    <div class="banner">
+        <img src="./images/banner.jpg" alt="" width="100%" />
+        <div class="centered content">
+            <h1>Welcome To our Home page</h1>
+            <button type="button" class="btn btn-light text-danger">
+                LEARN MORE
+            </button>
+        </div>
+    </div>
+
+    <!-- <div class="jumbotron-fluid banner">
+            <img src="./images/banner.jpg" alt="" width="100%">
+            <div class="centered content ">
+                <h1>Welcome To our Home page</h1>
+                <button type="button" class="btn btn-light text-danger">
+                    LEARN MORE
+                </button>
+            </div>
+        </div> -->
+
+    <!--About Section-->
+    <section>
+        <div class="container" id="about">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <span style="border-bottom: 2px solid black; padding-bottom: 3px">About Us</span>
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-md-6 px-5">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed/CX8ZybaPB5Y" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe><br />
+                    </div>
+                </div>
+                <div class="col-md-6 para pt-1">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
+                        velit nulla in hic, sequi pariatur, rerum harum recusandae
+                        accusamus repudiandae est dolor iste cupiditate dolores ex,
+                        nesciunt natus non eius!
+                    </p>
+                    <br />
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                        possimus quia odit autem facilis est provident consequatur
+                        pariatur vel fugit voluptatum quo repellat, aspernatur reiciendis
+                        quisquam deleniti natus error non.
+                    </p>
+                    <p>
+                        <a href="#" class="p-2" style="text-decoration: none" data-target="#popupmodal"
+                            data-toggle="modal"><i style="
+                    color: #d52037;
+                    font-size: 15px;
+                    border-bottom: 1px solid #d52037;
+                  ">Learn More</i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact section-->
+    <section>
+        <div class="container" id="contactus">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <span style="border-bottom: 2px solid black; padding-bottom: 3px">Contact Us</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Name</label>
+                            <input type="text" class="form-control" id="username" placeholder="Please enter your name"
+                                required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Please enter your email"
+                                required />
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Message</label>
+                            <textarea class="form-control" style="background-color: #e4e4e4; border-radius: 11px"
+                                id="comment" cols="30" rows="4"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-lg" style="
+                  padding: 8px 45px;
+                  border-radius: 10px;
+                  border-style: none;
+                  font-size: 18px;
+                  color: #fff;
+                ">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+                <div class="col-md-6 pt-5 px-5">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108704.20942016892!2d74.8000793013249!3d31.633671194926507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391964aa569e7355%3A0xeea2605bee84ef7d!2sAmritsar%2C%20Punjab!5e0!3m2!1sen!2sin!4v1650438142439!5m2!1sen!2sin"
+                            style="border: 2px solid #db1e36" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer section-->
+    <footer>
+        <p class="text-center">
+            Copyright &copy; 2022 by Ask.com.All Rights Reserved
+        </p>
+    </footer>
+
+    <!--modal-->
+
+    <!-- Button trigger modal
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+    Launch demo modal
+  </button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="popupmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Learn More</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="color: #d52037">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="font-size: normal">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                        iusto debitis voluptatem sit tempore aut consequatur, velit nobis.
+                        At, amet. Voluptatibus optio deleniti asperiores accusantium, cum
+                        delectus consequuntur modi minima?
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                        style="background-color: #d52037">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
