@@ -74,6 +74,27 @@ form input[type] {
   padding: 20px;
 }
 
+form input[type].invalid {
+  border: 2px solid red;
+}
+form input[type].valid {
+  border: 2px solid green;
+}
+
+form textarea.invalid {
+  border: 2px solid red;
+}
+form textarea.valid {
+  border: 2px solid green;
+}
+
+.hidden{
+  display: none;
+}
+form span{
+  color: red;
+  font-size: 15px;
+}
 form label {
   font-size: 16px;
   color: black;
